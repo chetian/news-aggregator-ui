@@ -49,7 +49,6 @@ const CollapseIcon = props => {
 
 const StoryHeader = props => {
     const {story} = props;
-    const source = story && story.source;
     return (
         <div className="story-header">
             <Logo source={story.source} />

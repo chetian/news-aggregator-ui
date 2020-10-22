@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {NewsComponent} from './components';
-import {mockData} from '../mockData/mockData'
+// import {mockData} from '../mockData/mockData'
 
 export default class NewsApp extends Component {
     constructor(props) {
