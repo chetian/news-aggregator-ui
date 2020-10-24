@@ -130,7 +130,7 @@ const StoryWrapper = props => {
                     story={story}
                     isCollapsed={isCollapsed}
                 />
-                <Headline headline={headline} />
+                <Headline handleAnchor={handleAnchor} headline={headline} />
             </div>
     );
     }
